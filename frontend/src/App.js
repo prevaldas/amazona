@@ -20,6 +20,7 @@ import PlaceOrderScreen from './screens/PlaceOrderScreen';
 import OrderScreen from './screens/OrderScreen';
 import OrderHistoryScreen from './screens/OrderHistoryScreen';
 import ProfileScreen from './screens/ProfileScreen';
+import Footer from './components/Footer';
 
 function App() {
   const { state, dispatch: ctxDispatch } = useContext(Store);
@@ -40,7 +41,7 @@ function App() {
           <Navbar bg="dark" variant="dark" expand="lg">
             <Container>
               <LinkContainer to="/">
-                <Navbar.Brand>amazona</Navbar.Brand>
+                <Navbar.Brand>SWEATER&co</Navbar.Brand>
               </LinkContainer>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
@@ -103,8 +104,8 @@ function App() {
             </Routes>
           </Container>
         </main>
-        <footer>
-          <div className="text-center">All rights reserved</div>
+        <footer className="text-center">
+          <Footer />
         </footer>
       </div>
     </BrowserRouter>
