@@ -1,6 +1,6 @@
 # amazona
 
-MERN ECommerce Website with React & Node.
+MERN ECommerce Website built with React & Node.
 
 App is live here:
 
